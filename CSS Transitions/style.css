@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  background-color: aqua;
+  width: 5rem;
+  height: 5rem;
+  /* transition: width 2s , background-color 3s; */
+  transition-property: width,background-color;
+  transition-duration: 2s,3s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+div:hover {
+  width: 8rem;
+  background-color: blueviolet;
+}
